@@ -1,0 +1,90 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UFT-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title> Blogging website</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header class="navbar">
+                <a href="logo">Blog<spam>space.</spam></a>
+
+                <nav>
+                    <a href="#home">Home</a>
+                    <a href="#blogs">Blogs</a>
+                    <a href="write">write a blog</a>
+
+                </nav>
+            </header>
+
+            <section class="hero" id="home">
+                <div class="hero-content">
+                    <p class="tagline">YOUR IDEAS, YOUR STORIES</p>
+                    <h1>Every story deserves <br>a <span>place to shine.</span></h1>
+                    <p class="hero-text">
+                        share your thoughts, explore new ideas,
+                        and connect with a stories that inspire you.
+                    </p>
+                    <a href="#blogs" class="btn">Explore Blogs</a>
+
+                </div>
+                </section>
+
+                <main class="container">
+                    <selection id="write" class="write-section">
+                        <h2>write a new blog</h2>
+                        <p class="subtitle">Share your thoughts with the world.</p>
+
+                        <form id="Blogform">
+                            <div class="form-row">
+                                <input type="text" id="title"
+                                placeholder="Blog title" required>
+
+                                <input type="text" id="author"
+                                placeholder="your name" required>
+
+                            </div>
+
+                            <input type="text" id="category"
+                            placeholder="category (Technology, Travel...)"
+                            required>
+
+
+                            <textarea id="content"
+                            placeholder="write your blog here..."
+                            rows="5" required></textarea>
+
+                            <button type="submit" class="Btn">
+                                Publish Blog
+                            </button>
+                        </form>
+                    </selection>
+
+                    <section id="blogs" class="blogs-section">
+                        <div class="section-heading">  
+                        </div>
+                        <h2>Explore Stories</h2>
+                        <p class="subtitle">Ideas worth sharing.</p>
+                    </div>
+
+                    <input type="search" id="search"
+                    placeholder="search blogs...">
+                </div>
+
+                <div id="blogcontainer" class="blog-grid"></div>
+                <p id="emptymessage" class="empty-message"
+                   hidden> No blogs found. try another search!</p>
+                    </section>
+                </main>
+
+
+                <footer>
+                    <h2>BlogSpace</h2>
+                    <p>created with using HTML, CSS, & JavaScript</p>
+                    <p> 2026 BlogSpace. All rights reserved.</p>
+                </footer>
+
+                <script src="script.js"></script>
+        </body>
+    </html>
